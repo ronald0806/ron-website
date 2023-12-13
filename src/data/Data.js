@@ -87,6 +87,7 @@ import protfoliImg2 from '../../src/assets/p2.jpg'
 import protfoliImg3 from '../../src/assets/p3.jpg'
 import protfoliImg4 from '../../src/assets/p4.jpg'
 import protfoliImg5 from '../../src/assets/p5.jpg'
+import protfoliImg6 from '../../src/assets/p6.jpg'
 export const portfolio = [
     {
         id: 1,
@@ -122,5 +123,12 @@ export const portfolio = [
         name: 'Quick Type Math',
         des: 'Complete 20 randomized math problems as quick as possible.',
         github:'https://github.com/ronald0806/quick_type_math',
+    },
+    {
+        id: 1,
+        img: protfoliImg6,
+        name: 'Web Weather',
+        des: "Search a location's weather infomation through searching the web.",
+        github:'https://github.com/ronald0806/web-weather',
     },
 ];
